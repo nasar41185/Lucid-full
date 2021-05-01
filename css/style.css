@@ -1,0 +1,485 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.logo-text ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.M-area ul{
+ list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/****************
+   header-area
+*****************/
+.banner-area{
+	width: 100%;
+	background: url(../img/Back.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh
+	margin:auto;
+}
+.navbar-brand{
+	font-size: 32px;
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link{
+	color: white !important;
+	font-size: 16px;
+    font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/photo.png) bottom;
+	background-repeat: no-repeat;
+}
+/**********************
+     banner-area
+***********************/
+.banner-text{
+	margin-top: 126px;
+}
+.banner-text h6{
+    color: #6dadf3;
+    font-size: 14px;
+    text-transform: uppercase;	
+}
+.banner-text h1{
+	color: white;
+	font-size: 40px;
+	margin-top: 16px;
+}
+.banner-text p{
+	color:#6f6f6f;
+	margin-top: 24px;
+}
+.banner-btn{
+    display: flex;
+    margin-top: 50px;
+}
+.banner-btn button{
+	padding: 10px 11px;
+    border: none;
+    margin-right: 22px;
+    text-transform: uppercase;
+    background: #1d1e1f;
+    color: white;
+    border:1px solid #404040;
+}
+.banner-btn button:hover{
+	background-color:#17a2b8;
+	cursor: pointer;
+}
+.banner{
+	margin-top: 31px; 
+}
+/********************
+  features-area
+*********************/
+.features-area{
+	background: #ffffff;
+	width: 100%;
+	padding: 80px 0;
+	    border-bottom: 1px solid lightgray;
+}
+.text-titel{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.text-titel h6{
+   color: #008ed6;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+.text-titel h2{
+    font-size: 42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.icon-p{
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.icon-area i{
+    height: 53px;
+    width: 53px;
+    line-height: 50px;
+    font-size: 27px;
+    color: #008ed6;
+    border-radius: 50%;
+    border: 3px solid #f2f2f2;
+}
+.icon-area h4{
+	margin: 20px 0 20px 0;
+	font-size: 20px;
+}
+.icon-area p{
+color: #999999;
+font-size: 12px;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/******************
+  divice-area
+*******************/
+.divice-area{
+	background: #ffffff;
+	width: 100%;
+	padding: 80px 0;	
+}
+.logo-text{
+padding: 70px;
+
+}
+.logo-text h6{
+ font-size: 14px;
+ color: #aacfec;
+ text-transform: uppercase;
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
+.logo-text h1{
+ font-size:29px;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.logo-text p{
+color: #b8b8b8;
+font-size: 14px;
+margin-top: 13px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo-text ul li{
+font-size: 21px;
+font-family: 'Source Sans Pro', sans-serif;
+margin-bottom: 14px;
+}
+.logo-text i{
+height: 20px;
+width: 20px;
+line-height: 20px;
+font-size: 14px;
+color: #1798da;
+}
+/********************
+  super-area
+*********************/
+.super-area{
+	background: #f2f2f2;
+	width: 100%;
+	padding: 80px 0;
+}
+.super-text h6{
+font-size: 14px;
+ color: #aacfec;
+ text-transform: uppercase;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.super-text{
+	padding: 150px 0;
+}
+.super-text h1{
+ font-size:30px;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 600;
+}
+.super-text p{
+color: #b8b8b8;
+font-size: 12px;
+margin-top: 10px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.super-banner img{
+	margin-left:-177px;
+}
+/********************
+  Pricings-area start
+*********************/
+.plans-area{
+	width: 100%;
+	background: url(../img/banner-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.plans-area{
+	padding: 80px 0;
+}
+.Pricings-text{
+text-align: center;
+}
+.Pricings-text h6{
+ font-size: 14px;
+ color: #1877f2;
+ text-transform: uppercase;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.Pricings-text h1{
+	font-size: 42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.Pricings-t{
+	width: 100%;
+	display: flex;
+	margin-top: 90px;
+}
+.Pricings-t p{
+	color: #e3e1e5;
+	font-size: 18px;
+	 font-family: 'Source Sans Pro', sans-serif;
+}
+.Pricings-t h6{
+	color: white;
+	 font-family: 'Source Sans Pro', sans-serif;
+	 font-size: 18px;
+	 color: #929194;
+}
+.nav{
+   margin-bottom: 25px;
+}
+.coto-banner{
+	width: 100%;
+    background: #000000;
+    color: white;
+    padding-top: 46px;
+    padding-bottom: 35px;
+}
+.coto-banner h2{
+
+}
+.coto-banner span{
+ color: #b1b1b3;
+}
+.coto-banner button{
+	background: #000000;
+	color: white;
+    padding: 10px 22px;
+    border: 1px solid #5b5a5f;
+    margin-right:25px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.coto-banner button:hover{
+	cursor: pointer;
+	background: #266af2;
+}
+/******************
+ Pricings Plans-area start
+*******************/
+.Pricings-area{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+}
+.super-txt{
+	
+	margin-bottom: 70px;
+}
+.super-txt h6{
+ font-size: 14px;
+ color: #1877f2;
+ text-transform: uppercase;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.super-txt h1{
+    padding: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.plans-banner{
+ border: 1px solid #e0e0e0;
+ text-align: center;
+}
+.p-cat h2{
+    padding: 13px;
+    border-bottom: 1px solid #e0e0e0;
+    font-weight: 600;
+}
+.p-price h1{
+     font-size: 38px;
+     margin-top: 22px;
+}
+.p-price h1 span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.p-price p{
+     font-size: 14px;
+     color:#999999;
+}
+.p-dese p{
+    margin: 2px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 18px;
+}
+.p-dese p span{
+	color:  #008ed6;
+}
+.p-dese button{
+   color: #008ed6;
+    padding: 8px 22px;
+    border: 1px solid #e0e0e0;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 24px;
+    margin-top: 21px;
+    font-weight: 600;
+} 
+.p-dese button:hover{
+	cursor: pointer;
+	color: white;
+	background: #008ed6;
+}
+.plans-banner:hover .p-cat h2{
+	color: #008ed6;
+}
+.plans-banner:hover .p-price{
+	background: #008ed6;
+}
+.plans-banner:hover .p-price h1,  .p-price p{
+	color: white;
+}
+.p-price h1::before{
+	position: absolute;
+    content: '$';
+    top:90px;
+    left: 36%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-price h1 span{
+	margin-right: 24px;
+    font-size: 41px;
+    font-weight: 600;
+}
+/*************************
+   Contact us-area
+**************************/
+.Contact-area{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+	background: #ededed;
+}
+.F-area h6{
+font-size: 14px;
+ color: #1877f2;
+ text-transform: uppercase;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+.F-area h1{
+	padding: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.F-area{
+margin-bottom: 66px; 
+}
+.M-area h6{
+font-size: 14px;
+ color: #b0b1b3;
+}
+.M-area p{
+color: #b0b1b3;
+font-size: 13px;
+margin-bottom: 5px;
+}
+.M-area i{
+height: 20px;
+width: 20px;
+line-height: 20px;
+font-size: 32px;
+color: #1798da;
+margin-bottom: 25px;
+}
+.Contact-form{
+	background-color: #000000;
+	padding: 54px 70px;
+	width: 60%;
+	margin: 88px auto 0 auto;
+}
+.form-group input {
+    border: 1px solid #535050;
+    padding: 10px 0;
+    margin: 8px 0;
+    outline: none;
+    background: transparent;
+}
+.form-group textarea {
+    border: 1px solid #535050;
+    padding: 13px 8px;;
+    margin: 8px 0;
+    background: transparent;
+    color: #535050;
+}
+.form-group button {
+    padding: 12px 24px;
+    margin-top: 15px;
+    background: #008ed6;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group{
+	width: 50%;
+	flex: 0 0 auto;
+}
+.map{
+margin-top: -160px;
+}
+.final-area{
+background: #000000;
+padding: 40px;
+}
+.icon-last{
+     text-align: center;
+    color: #777676;
+    font-size: 35px;
+    margin-left: 50px;
+}
+.pot-area p{
+	text-align: center;
+	color:  #777676;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+ .icon-last span{
+	color: #008ed6; 
+}
+.atom{
+margin-right: 43px;	
+}
+
+
+
+
+
+
+
+
+
+
